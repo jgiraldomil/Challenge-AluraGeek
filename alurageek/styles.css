@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Press+Start+2P&display=swap');
+
+.header {
+    display: flex;
+    padding: 10px 20px;
+    background-color: #5d04d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+body {
+  font-family: Arial, sans-serif;
+  }
+  .container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    padding-left: 60px;
+  }
+  .block {
+    flex: 1 ;
+    padding: 120px;
+    
+  }
+  .left-block {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    gap: 15px; /* Espacio entre las tarjetas */
+    padding: 10px 80px 10px 80px;
+    background-color: #f0f0f0;
+    border-right: 2px solid #ddd;
+    max-height: 400px; /* Altura máxima del contenedor */
+    overflow-y: auto; /* Agregar barra de desplazamiento vertical */
+    overflow-x: hidden; /* Evitar barra de desplazamiento horizontal */
+}
+  .productos h1 {
+    font-family: "Press Start 2P";
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    padding-top: 20px;
+  }
+  .right-block h1 {
+    font-family: "Press Start 2P";
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+      
+  }
+  .buttons button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 188px;
+  }
+  .buttons .send {
+    background-color: #03318c;
+    color: white;
+  }
+  .buttons .clear {
+    background-color: write;
+    color: #03318c;
+    border-color: #03318c;
+    border: 1px solid #03318c;
+  }
+  
+
+/* Estilos para la card */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5d04d9;
+  border: 4px solid #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba (0, 0, 0, 0);
+  padding: 16px;
+  max-width: 200px;
+  height: 250px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 170px;
+  height: 170px;
+  border-radius: 4px;
+}
+
+.card-container--info {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+.card-container--info p {
+  margin: 0;
+  font-size: 16px;
+  color: #f0f0f0;
+  font-weight: 500;
+  text-align: left;
+  
+  
+}
+
+.card-container--value {
+  display: flex;
+  gap: 70px;
+}
+
+.card-container--value p {
+  margin: 0;
+  font-size: 16px;
+  color: #f0f0f0;
+  font-weight: bold;
+}
+
+.card-container--value img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.card-container--value img:hover {
+  transform: scale(1.2);
+}
+
+/* Botón de eliminar */
+.card-container--delete {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-container--delete button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  transition: transform 0.2s;
+}
+
+.card-container--delete button:hover {
+  transform: scale(1.1);
+}
+
+.card-container--delete img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer{
+  background-color: #5d04d9;
+  display: block;
+  align-items: center;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+.footer_img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_tex{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  
+    .container {
+    flex-direction: column-reverse;
+    padding: 0;
+    
+  }
+  .left-block{
+    width: 70%;
+    
+  }
+ 
+  .card img{
+    width: 90%;
+  }
+}

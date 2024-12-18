@@ -1,0 +1,58 @@
+{
+  "proyectos": [
+    {
+      "id": "a5b0",
+      "name": "HAMBURGUESA ESPECIAL",
+      "price": "7.60",
+      "imageUrl": "https://www.unileverfoodsolutions.com.co/dam/global-ufs/mcos/NOLA/calcmenu/recipes/col-recipies/fruco-tomate-cocineros/HAMBURGUESA%201200x709.png"
+    },
+    {
+      "id": "38b0",
+      "name": "HAMBURGUESA SENCILLA",
+      "price": "5.20",
+      "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/3C7PZ4DXTFFMDJV5BU7OJ2JH7U.jpg"
+    },
+    {
+      "id": "6861",
+      "name": "PERRO CALIENTE",
+      "price": "6.20",
+      "imageUrl": "https://hazdeoros.com/familiar/wp-content/uploads/2022/02/como-preparar-un-perro-caliente.png"
+    },
+    {
+      "id": "29f7",
+      "name": "PIZZA",
+      "price": "12.50",
+      "imageUrl": "https://www.allrecipes.com/thmb/fFW1o307WSqFFYQ3-QXYVpnFj6E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/48727-Mikes-homemade-pizza-DDMFS-beauty-4x3-BG-2974-a7a9842c14e34ca699f3b7d7143256cf.jpg"
+    },
+    {
+      "id": "1cfb",
+      "name": "POPCORN",
+      "price": "5.80",
+      "imageUrl": "https://www.lacostena.com.mx/media/uploads/Recipes/palomitas_pollo_1600x1000-min.jpg"
+    },
+    {
+      "id": "871a",
+      "name": "SANDWICH",
+      "price": "4.50",
+      "imageUrl": "https://placeres.pe/wp-content/uploads/2023/11/Post.jpg"
+    },
+    {
+      "id": "224e",
+      "name": "PORCION DE PAPAS",
+      "price": "2.20",
+      "imageUrl": "https://img.freepik.com/fotos-premium/porcion-papas-fritas_908985-48851.jpg"
+    },
+    {
+      "id": "6ea8",
+      "name": "HELADOS",
+      "price": "1.50",
+      "imageUrl": "https://www.hola.com/horizon/square/5d0cd344141f-adobestock817537522.jpg"
+    },
+    {
+      "id": "4b85",
+      "name": "SODAS",
+      "price": "1.00",
+      "imageUrl": "https://146837091.cdn6.editmysite.com/uploads/1/4/6/8/146837091/s689082932990932060_p98_i1_w1800.jpeg"
+    }
+  ]
+}
